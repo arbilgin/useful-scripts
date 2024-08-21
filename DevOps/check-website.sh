@@ -12,4 +12,6 @@ check_website() {
     fi
 }
 # Call the function with a sample website
-check_website "https://www.example.com"
+echo "Enter URL"
+read url
+check_website $url
